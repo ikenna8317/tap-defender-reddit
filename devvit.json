@@ -1,6 +1,6 @@
 {
   "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
-  "name": "TapItDefender",
+  "name": "tapit-defender",
   "post": {
     "client": {
       "dir": "dist/client",
