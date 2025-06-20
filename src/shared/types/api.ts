@@ -15,3 +15,22 @@ export type DecrementResponse = {
   postId: string;
   count: number;
 };
+
+export type GameOverResponse = {
+  type: 'gameOver';
+  postId: string;
+  score: number;
+  rank: number;
+};
+
+export type LeaderboardEntry = {
+  username: string;
+  score: number;
+  rank: number;
+};
+
+export type LeaderboardResponse = {
+  type: 'leaderboard';
+  postId: string;
+  entries: LeaderboardEntry[];
+};
